@@ -1,0 +1,185 @@
+@charset "UFT-8";
+
+body {
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #34495e;
+  padding: 1.5% 5%;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top {
+  height: 800px;
+  background: url(../img/photo1920.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top_wrapper {
+  background-color: #f1c40f;
+  padding: 2.5%;
+  margin-right: 10%;
+}
+
+.top_wrapper h1 {
+  font-size: 2.5rem;
+  color: #34495e;
+}
+
+#service {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.section_title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #3498db;
+  margin-bottom: 5%;
+}
+
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 2rem;
+  color: #3498db;
+  padding: 5% 0;
+}
+
+.service_right ul {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.service_right p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  display: inline-block
+}
+
+#news {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+#price {
+  width: 50%;
+  margin: 10% auto;
+}
+
+.price_wrapper table {
+  border: double #3498db 10px;
+  width: 100%;
+  text-align: center; /* 子要素を左右中央揃えにする */
+}
+
+.price_wrapper table tr {
+  border: solid #3498db 3px;
+    /* 枠線指定 */
+  
+  padding: 1%; /* 余白指定 */
+}
+.price_wrapper table th {
+  
+  border: solid #3498db 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td {
+  border: solid #3498db 3px;
+  padding: 1%;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block; /*インラインブロック要素にする*/
+  width: 30%; /*幅指定*/
+  line-height: 2; /*ラインの太さ*/
+  text-align: center /*子要素を左右中央揃え*/
+}
+
+input,
+textarea {
+  box-sizing: border-box; /* 崩れ防止 */
+  border: solid #BDBDBD 1px; /* 枠線指定 */
+  width: 50%;
+  margin-bottom: 1%; /* 要素同士の隙間調整 */
+}
+
+.work {
+  display: flex; /* フレックスボックスにする */
+  flex-wrap: wrap;  /* 折り返し指定 */
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top; /*要素を　　揃えにする*/
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+  
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: #212121;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 10px;  /* 角丸 */
+}
+
+#footer {
+  background-color:#34495e;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
+
